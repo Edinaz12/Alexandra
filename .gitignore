@@ -1,0 +1,27 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.log
+hs_err_pid*
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit these)
+.env
+*.env
+application-local.properties
+application-local.yml
+secrets.properties
